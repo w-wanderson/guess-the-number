@@ -21,8 +21,7 @@ public class Program {
 			int valor = new Random().nextInt(qtdNum);
 
 			if (palpite == valor) {
-				System.out.println("Parabéns, você acertou na primeira tentativa, " + " Seu palpite: " + palpite
-						+ ". Número Sorteado: " + valor);
+				System.out.println("Parabéns, você acertou na primeira tentativa, " + " Seu palpite: " + palpite + ". Número Sorteado: " + valor);
 
 			}
 
@@ -40,8 +39,7 @@ public class Program {
 				System.out.println();
 
 				if (palpite == valor) {
-					System.out.println(
-							"Parabéns, você acertou. " + " Seu palpite: " + palpite + ". Número Sorteado: " + valor);
+					System.out.println("Parabéns, você acertou. " + " Seu palpite: " + palpite + ". Número Sorteado: " + valor);
 					System.out.println("Quantidade de tentativas até acertar: " + i);
 				}
 			}
